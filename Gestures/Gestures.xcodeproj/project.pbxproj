@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1CD85E22BBDBC2002D12AD /* VideoController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CD85D22BBDBC2002D12AD /* VideoController1.swift */; };
+		0C1CD86022BBE183002D12AD /* VideoController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CD85F22BBE183002D12AD /* VideoController2.swift */; };
+		0C1CD86222BBE196002D12AD /* VideoController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CD86122BBE196002D12AD /* VideoController3.swift */; };
+		0C1CD86422BBE252002D12AD /* VideoController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CD86322BBE252002D12AD /* VideoController4.swift */; };
+		0C1CD86622BBE271002D12AD /* VideoController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CD86522BBE271002D12AD /* VideoController5.swift */; };
+		0C1CD86822BBE3B9002D12AD /* VideoController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CD86722BBE3B9002D12AD /* VideoController6.swift */; };
+		0C1CD86A22BBE43D002D12AD /* VideoController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CD86922BBE43D002D12AD /* VideoController7.swift */; };
+		0C1CD86C22BBE44D002D12AD /* VideoController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CD86B22BBE44D002D12AD /* VideoController8.swift */; };
+		0C4F9F2F22CCF64D00F31F26 /* 1 Toque dos dedos.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F2C22CCF58900F31F26 /* 1 Toque dos dedos.mp4 */; };
+		0C4F9F3022CCF6B500F31F26 /* 2 Toque doble impreciso.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F2D22CCF59500F31F26 /* 2 Toque doble impreciso.mp4 */; };
+		0C4F9F3122CCF6B900F31F26 /* 3 Toque múltiple.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F2E22CCF5BC00F31F26 /* 3 Toque múltiple.mp4 */; };
+		0C4F9F4022CCFA9600F31F26 /* 17 Toque preciso.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F3F22CCFA7300F31F26 /* 17 Toque preciso.mp4 */; };
+		0C4F9F4122CCFA9600F31F26 /* 16 Deslizar con dos dedos.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F3E22CCFA6100F31F26 /* 16 Deslizar con dos dedos.mp4 */; };
+		0C4F9F4222CCFA9600F31F26 /* 15 Toque tres dedos.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F3D22CCFA5A00F31F26 /* 15 Toque tres dedos.mp4 */; };
+		0C4F9F4322CCFA9600F31F26 /* 14 Balanza.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F3C22CCFA5200F31F26 /* 14 Balanza.mp4 */; };
+		0C4F9F4422CCFA9600F31F26 /* 13 Arco.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F3B22CCFA4B00F31F26 /* 13 Arco.mp4 */; };
+		0C4F9F4522CCFA9600F31F26 /* 12 Barra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F3A22CCFA4300F31F26 /* 12 Barra.mp4 */; };
+		0C4F9F4622CCFA9600F31F26 /* 11 Rueda.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F3922CCFA3C00F31F26 /* 11 Rueda.mp4 */; };
+		0C4F9F4722CCFA9600F31F26 /* 10 Presionar origen y toque destino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F3822CCFA3400F31F26 /* 10 Presionar origen y toque destino.mp4 */; };
+		0C4F9F4822CCFA9600F31F26 /* 9 Toque origen y destino fuerte.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F3722CCFA2C00F31F26 /* 9 Toque origen y destino fuerte.mp4 */; };
+		0C4F9F4922CCFA9700F31F26 /* 8 Presionar origen y toque destino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F3622CCFA2400F31F26 /* 8 Presionar origen y toque destino.mp4 */; };
+		0C4F9F4A22CCFA9700F31F26 /* 7 Toque origen y destino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F3522CCFA1D00F31F26 /* 7 Toque origen y destino.mp4 */; };
+		0C4F9F4B22CCFA9700F31F26 /* 6 Presionar origen y toque destino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F3422CCFA1500F31F26 /* 6 Presionar origen y toque destino.mp4 */; };
+		0C4F9F4C22CCFA9700F31F26 /* 5 Toque origen y destino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F3322CCFA0A00F31F26 /* 5 Toque origen y destino.mp4 */; };
+		0C4F9F4D22CCFA9700F31F26 /* 4 Presionar con deslizamiento.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F9F3222CCFA0200F31F26 /* 4 Presionar con deslizamiento.mp4 */; };
+		0C63C55022B8F4F9000DF590 /* ViewControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C63C54F22B8F4F9000DF590 /* ViewControllerC.swift */; };
+		0C63C55422B8FB07000DF590 /* DataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C63C55322B8FB07000DF590 /* DataCollectionViewCell.swift */; };
+		0C8A93A722A123F50015E423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8A93A622A123F50015E423 /* AppDelegate.swift */; };
+		0C8A93A922A123F50015E423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8A93A822A123F50015E423 /* ViewController.swift */; };
+		0C8A93AC22A123F50015E423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8A93AA22A123F50015E423 /* Main.storyboard */; };
+		0C8A93AE22A123F60015E423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C8A93AD22A123F60015E423 /* Assets.xcassets */; };
+		0C8A93B122A123F60015E423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8A93AF22A123F60015E423 /* LaunchScreen.storyboard */; };
+		0C8A93BC22A123F60015E423 /* GesturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8A93BB22A123F60015E423 /* GesturesTests.swift */; };
+		0C8A93C722A123F60015E423 /* GesturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8A93C622A123F60015E423 /* GesturesUITests.swift */; };
+		0C93CFBE22AA76D900423C1C /* ViewControllerShake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C93CFBD22AA76D900423C1C /* ViewControllerShake.swift */; };
+		0CC804B722B79359007A68BF /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC804B622B79359007A68BF /* VideoController.swift */; };
+		0CC804B922B7A8FA007A68BF /* PressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC804B822B7A8FA007A68BF /* PressController.swift */; };
+		0CE6D45D22BCF82E00F8A842 /* VideoController9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE6D45C22BCF82E00F8A842 /* VideoController9.swift */; };
+		0CE6D45F22BCF84100F8A842 /* VideoController10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE6D45E22BCF84100F8A842 /* VideoController10.swift */; };
+		0CE6D46122BCF85200F8A842 /* VideoController11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE6D46022BCF85200F8A842 /* VideoController11.swift */; };
+		0CE6D46322BCF86400F8A842 /* VideoController12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE6D46222BCF86400F8A842 /* VideoController12.swift */; };
+		0CE6D46522BCF87600F8A842 /* VideoController13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE6D46422BCF87600F8A842 /* VideoController13.swift */; };
+		0CE6D46722BCF88D00F8A842 /* VideoController14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE6D46622BCF88D00F8A842 /* VideoController14.swift */; };
+		0CE6D46922BCF8AC00F8A842 /* VideoController15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE6D46822BCF8AC00F8A842 /* VideoController15.swift */; };
+		0CE6D46B22BCF8BE00F8A842 /* VideoController16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE6D46A22BCF8BE00F8A842 /* VideoController16.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C8A93B822A123F60015E423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C8A939B22A123F50015E423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C8A93A222A123F50015E423;
+			remoteInfo = Gestures;
+		};
+		0C8A93C322A123F60015E423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C8A939B22A123F50015E423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C8A93A222A123F50015E423;
+			remoteInfo = Gestures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C1CD85D22BBDBC2002D12AD /* VideoController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController1.swift; sourceTree = "<group>"; };
+		0C1CD85F22BBE183002D12AD /* VideoController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController2.swift; sourceTree = "<group>"; };
+		0C1CD86122BBE196002D12AD /* VideoController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController3.swift; sourceTree = "<group>"; };
+		0C1CD86322BBE252002D12AD /* VideoController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController4.swift; sourceTree = "<group>"; };
+		0C1CD86522BBE271002D12AD /* VideoController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController5.swift; sourceTree = "<group>"; };
+		0C1CD86722BBE3B9002D12AD /* VideoController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController6.swift; sourceTree = "<group>"; };
+		0C1CD86922BBE43D002D12AD /* VideoController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController7.swift; sourceTree = "<group>"; };
+		0C1CD86B22BBE44D002D12AD /* VideoController8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController8.swift; sourceTree = "<group>"; };
+		0C4F9F2C22CCF58900F31F26 /* 1 Toque dos dedos.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "1 Toque dos dedos.mp4"; path = "Gestures/Assets.xcassets/1 Toque dos dedos.mp4.dataset/1 Toque dos dedos.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F2D22CCF59500F31F26 /* 2 Toque doble impreciso.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "2 Toque doble impreciso.mp4"; path = "Gestures/Assets.xcassets/2 Toque doble impreciso.dataset/2 Toque doble impreciso.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F2E22CCF5BC00F31F26 /* 3 Toque múltiple.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "3 Toque múltiple.mp4"; path = "Gestures/Assets.xcassets/3 Toque múltiple.dataset/3 Toque múltiple.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F3222CCFA0200F31F26 /* 4 Presionar con deslizamiento.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "4 Presionar con deslizamiento.mp4"; path = "Gestures/Assets.xcassets/4 Presionar con deslizamiento.dataset/4 Presionar con deslizamiento.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F3322CCFA0A00F31F26 /* 5 Toque origen y destino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "5 Toque origen y destino.mp4"; path = "Gestures/Assets.xcassets/5 Toque origen y destino.dataset/5 Toque origen y destino.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F3422CCFA1500F31F26 /* 6 Presionar origen y toque destino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "6 Presionar origen y toque destino.mp4"; path = "Gestures/Assets.xcassets/6 Presionar origen y toque destino.dataset/6 Presionar origen y toque destino.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F3522CCFA1D00F31F26 /* 7 Toque origen y destino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "7 Toque origen y destino.mp4"; path = "Gestures/Assets.xcassets/7 Toque origen y destino.dataset/7 Toque origen y destino.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F3622CCFA2400F31F26 /* 8 Presionar origen y toque destino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "8 Presionar origen y toque destino.mp4"; path = "Gestures/Assets.xcassets/8 Presionar origen y toque destino.dataset/8 Presionar origen y toque destino.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F3722CCFA2C00F31F26 /* 9 Toque origen y destino fuerte.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "9 Toque origen y destino fuerte.mp4"; path = "Gestures/Assets.xcassets/9 Toque origen y destino fuerte.dataset/9 Toque origen y destino fuerte.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F3822CCFA3400F31F26 /* 10 Presionar origen y toque destino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "10 Presionar origen y toque destino.mp4"; path = "Gestures/Assets.xcassets/10 Presionar origen y toque destino.dataset/10 Presionar origen y toque destino.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F3922CCFA3C00F31F26 /* 11 Rueda.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "11 Rueda.mp4"; path = "Gestures/Assets.xcassets/11 Rueda.dataset/11 Rueda.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F3A22CCFA4300F31F26 /* 12 Barra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "12 Barra.mp4"; path = "Gestures/Assets.xcassets/12 Barra.dataset/12 Barra.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F3B22CCFA4B00F31F26 /* 13 Arco.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "13 Arco.mp4"; path = "Gestures/Assets.xcassets/13 Arco.dataset/13 Arco.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F3C22CCFA5200F31F26 /* 14 Balanza.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "14 Balanza.mp4"; path = "Gestures/Assets.xcassets/14 Balanza.dataset/14 Balanza.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F3D22CCFA5A00F31F26 /* 15 Toque tres dedos.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "15 Toque tres dedos.mp4"; path = "Gestures/Assets.xcassets/15 Toque tres dedos.dataset/15 Toque tres dedos.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F3E22CCFA6100F31F26 /* 16 Deslizar con dos dedos.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "16 Deslizar con dos dedos.mp4"; path = "Gestures/Assets.xcassets/16 Deslizar con dos dedos.dataset/16 Deslizar con dos dedos.mp4"; sourceTree = SOURCE_ROOT; };
+		0C4F9F3F22CCFA7300F31F26 /* 17 Toque preciso.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "17 Toque preciso.mp4"; path = "Gestures/Assets.xcassets/17 Toque preciso.dataset/17 Toque preciso.mp4"; sourceTree = SOURCE_ROOT; };
+		0C63C54F22B8F4F9000DF590 /* ViewControllerC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerC.swift; sourceTree = "<group>"; };
+		0C63C55322B8FB07000DF590 /* DataCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionViewCell.swift; sourceTree = "<group>"; };
+		0C8A93A322A123F50015E423 /* Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C8A93A622A123F50015E423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C8A93A822A123F50015E423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C8A93AB22A123F50015E423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C8A93AD22A123F60015E423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C8A93B022A123F60015E423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C8A93B222A123F60015E423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C8A93B722A123F60015E423 /* GesturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C8A93BB22A123F60015E423 /* GesturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesTests.swift; sourceTree = "<group>"; };
+		0C8A93BD22A123F60015E423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C8A93C222A123F60015E423 /* GesturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C8A93C622A123F60015E423 /* GesturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesUITests.swift; sourceTree = "<group>"; };
+		0C8A93C822A123F60015E423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C93CFBD22AA76D900423C1C /* ViewControllerShake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerShake.swift; sourceTree = "<group>"; };
+		0CC804B622B79359007A68BF /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
+		0CC804B822B7A8FA007A68BF /* PressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressController.swift; sourceTree = "<group>"; };
+		0CE6D45C22BCF82E00F8A842 /* VideoController9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController9.swift; sourceTree = "<group>"; };
+		0CE6D45E22BCF84100F8A842 /* VideoController10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController10.swift; sourceTree = "<group>"; };
+		0CE6D46022BCF85200F8A842 /* VideoController11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController11.swift; sourceTree = "<group>"; };
+		0CE6D46222BCF86400F8A842 /* VideoController12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController12.swift; sourceTree = "<group>"; };
+		0CE6D46422BCF87600F8A842 /* VideoController13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController13.swift; sourceTree = "<group>"; };
+		0CE6D46622BCF88D00F8A842 /* VideoController14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController14.swift; sourceTree = "<group>"; };
+		0CE6D46822BCF8AC00F8A842 /* VideoController15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController15.swift; sourceTree = "<group>"; };
+		0CE6D46A22BCF8BE00F8A842 /* VideoController16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController16.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C8A93A022A123F50015E423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8A93B422A123F60015E423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8A93BF22A123F60015E423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C4F9F2B22CCF52E00F31F26 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0C4F9F3F22CCFA7300F31F26 /* 17 Toque preciso.mp4 */,
+				0C4F9F3E22CCFA6100F31F26 /* 16 Deslizar con dos dedos.mp4 */,
+				0C4F9F3D22CCFA5A00F31F26 /* 15 Toque tres dedos.mp4 */,
+				0C4F9F3C22CCFA5200F31F26 /* 14 Balanza.mp4 */,
+				0C4F9F3B22CCFA4B00F31F26 /* 13 Arco.mp4 */,
+				0C4F9F3A22CCFA4300F31F26 /* 12 Barra.mp4 */,
+				0C4F9F3922CCFA3C00F31F26 /* 11 Rueda.mp4 */,
+				0C4F9F3822CCFA3400F31F26 /* 10 Presionar origen y toque destino.mp4 */,
+				0C4F9F3722CCFA2C00F31F26 /* 9 Toque origen y destino fuerte.mp4 */,
+				0C4F9F3622CCFA2400F31F26 /* 8 Presionar origen y toque destino.mp4 */,
+				0C4F9F3522CCFA1D00F31F26 /* 7 Toque origen y destino.mp4 */,
+				0C4F9F3422CCFA1500F31F26 /* 6 Presionar origen y toque destino.mp4 */,
+				0C4F9F3322CCFA0A00F31F26 /* 5 Toque origen y destino.mp4 */,
+				0C4F9F3222CCFA0200F31F26 /* 4 Presionar con deslizamiento.mp4 */,
+				0C4F9F2E22CCF5BC00F31F26 /* 3 Toque múltiple.mp4 */,
+				0C4F9F2D22CCF59500F31F26 /* 2 Toque doble impreciso.mp4 */,
+				0C4F9F2C22CCF58900F31F26 /* 1 Toque dos dedos.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0C8A939A22A123F50015E423 = {
+			isa = PBXGroup;
+			children = (
+				0C8A93A522A123F50015E423 /* Gestures */,
+				0C8A93BA22A123F60015E423 /* GesturesTests */,
+				0C8A93C522A123F60015E423 /* GesturesUITests */,
+				0C8A93A422A123F50015E423 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C8A93A422A123F50015E423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C8A93A322A123F50015E423 /* Gestures.app */,
+				0C8A93B722A123F60015E423 /* GesturesTests.xctest */,
+				0C8A93C222A123F60015E423 /* GesturesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C8A93A522A123F50015E423 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				0C4F9F2B22CCF52E00F31F26 /* Resource */,
+				0C8A93A622A123F50015E423 /* AppDelegate.swift */,
+				0C8A93A822A123F50015E423 /* ViewController.swift */,
+				0C8A93AA22A123F50015E423 /* Main.storyboard */,
+				0C8A93AD22A123F60015E423 /* Assets.xcassets */,
+				0C8A93AF22A123F60015E423 /* LaunchScreen.storyboard */,
+				0C8A93B222A123F60015E423 /* Info.plist */,
+				0C93CFBD22AA76D900423C1C /* ViewControllerShake.swift */,
+				0CC804B622B79359007A68BF /* VideoController.swift */,
+				0CC804B822B7A8FA007A68BF /* PressController.swift */,
+				0C63C54F22B8F4F9000DF590 /* ViewControllerC.swift */,
+				0C63C55322B8FB07000DF590 /* DataCollectionViewCell.swift */,
+				0C1CD85D22BBDBC2002D12AD /* VideoController1.swift */,
+				0C1CD85F22BBE183002D12AD /* VideoController2.swift */,
+				0C1CD86122BBE196002D12AD /* VideoController3.swift */,
+				0C1CD86322BBE252002D12AD /* VideoController4.swift */,
+				0C1CD86522BBE271002D12AD /* VideoController5.swift */,
+				0C1CD86722BBE3B9002D12AD /* VideoController6.swift */,
+				0C1CD86922BBE43D002D12AD /* VideoController7.swift */,
+				0C1CD86B22BBE44D002D12AD /* VideoController8.swift */,
+				0CE6D45C22BCF82E00F8A842 /* VideoController9.swift */,
+				0CE6D45E22BCF84100F8A842 /* VideoController10.swift */,
+				0CE6D46022BCF85200F8A842 /* VideoController11.swift */,
+				0CE6D46222BCF86400F8A842 /* VideoController12.swift */,
+				0CE6D46422BCF87600F8A842 /* VideoController13.swift */,
+				0CE6D46622BCF88D00F8A842 /* VideoController14.swift */,
+				0CE6D46822BCF8AC00F8A842 /* VideoController15.swift */,
+				0CE6D46A22BCF8BE00F8A842 /* VideoController16.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		0C8A93BA22A123F60015E423 /* GesturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C8A93BB22A123F60015E423 /* GesturesTests.swift */,
+				0C8A93BD22A123F60015E423 /* Info.plist */,
+			);
+			path = GesturesTests;
+			sourceTree = "<group>";
+		};
+		0C8A93C522A123F60015E423 /* GesturesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C8A93C622A123F60015E423 /* GesturesUITests.swift */,
+				0C8A93C822A123F60015E423 /* Info.plist */,
+			);
+			path = GesturesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C8A93A222A123F50015E423 /* Gestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C8A93CB22A123F60015E423 /* Build configuration list for PBXNativeTarget "Gestures" */;
+			buildPhases = (
+				0C8A939F22A123F50015E423 /* Sources */,
+				0C8A93A022A123F50015E423 /* Frameworks */,
+				0C8A93A122A123F50015E423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gestures;
+			productName = Gestures;
+			productReference = 0C8A93A322A123F50015E423 /* Gestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C8A93B622A123F60015E423 /* GesturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C8A93CE22A123F60015E423 /* Build configuration list for PBXNativeTarget "GesturesTests" */;
+			buildPhases = (
+				0C8A93B322A123F60015E423 /* Sources */,
+				0C8A93B422A123F60015E423 /* Frameworks */,
+				0C8A93B522A123F60015E423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C8A93B922A123F60015E423 /* PBXTargetDependency */,
+			);
+			name = GesturesTests;
+			productName = GesturesTests;
+			productReference = 0C8A93B722A123F60015E423 /* GesturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C8A93C122A123F60015E423 /* GesturesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C8A93D122A123F60015E423 /* Build configuration list for PBXNativeTarget "GesturesUITests" */;
+			buildPhases = (
+				0C8A93BE22A123F60015E423 /* Sources */,
+				0C8A93BF22A123F60015E423 /* Frameworks */,
+				0C8A93C022A123F60015E423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C8A93C422A123F60015E423 /* PBXTargetDependency */,
+			);
+			name = GesturesUITests;
+			productName = GesturesUITests;
+			productReference = 0C8A93C222A123F60015E423 /* GesturesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C8A939B22A123F50015E423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = UJA;
+				TargetAttributes = {
+					0C8A93A222A123F50015E423 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0C8A93B622A123F60015E423 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0C8A93A222A123F50015E423;
+					};
+					0C8A93C122A123F60015E423 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0C8A93A222A123F50015E423;
+					};
+				};
+			};
+			buildConfigurationList = 0C8A939E22A123F50015E423 /* Build configuration list for PBXProject "Gestures" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C8A939A22A123F50015E423;
+			productRefGroup = 0C8A93A422A123F50015E423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C8A93A222A123F50015E423 /* Gestures */,
+				0C8A93B622A123F60015E423 /* GesturesTests */,
+				0C8A93C122A123F60015E423 /* GesturesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C8A93A122A123F50015E423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C4F9F4022CCFA9600F31F26 /* 17 Toque preciso.mp4 in Resources */,
+				0C4F9F4122CCFA9600F31F26 /* 16 Deslizar con dos dedos.mp4 in Resources */,
+				0C4F9F4222CCFA9600F31F26 /* 15 Toque tres dedos.mp4 in Resources */,
+				0C4F9F4322CCFA9600F31F26 /* 14 Balanza.mp4 in Resources */,
+				0C4F9F4422CCFA9600F31F26 /* 13 Arco.mp4 in Resources */,
+				0C4F9F4522CCFA9600F31F26 /* 12 Barra.mp4 in Resources */,
+				0C4F9F4622CCFA9600F31F26 /* 11 Rueda.mp4 in Resources */,
+				0C4F9F4722CCFA9600F31F26 /* 10 Presionar origen y toque destino.mp4 in Resources */,
+				0C4F9F4822CCFA9600F31F26 /* 9 Toque origen y destino fuerte.mp4 in Resources */,
+				0C4F9F4922CCFA9700F31F26 /* 8 Presionar origen y toque destino.mp4 in Resources */,
+				0C4F9F4A22CCFA9700F31F26 /* 7 Toque origen y destino.mp4 in Resources */,
+				0C4F9F4B22CCFA9700F31F26 /* 6 Presionar origen y toque destino.mp4 in Resources */,
+				0C4F9F4C22CCFA9700F31F26 /* 5 Toque origen y destino.mp4 in Resources */,
+				0C4F9F4D22CCFA9700F31F26 /* 4 Presionar con deslizamiento.mp4 in Resources */,
+				0C4F9F3122CCF6B900F31F26 /* 3 Toque múltiple.mp4 in Resources */,
+				0C4F9F3022CCF6B500F31F26 /* 2 Toque doble impreciso.mp4 in Resources */,
+				0C4F9F2F22CCF64D00F31F26 /* 1 Toque dos dedos.mp4 in Resources */,
+				0C8A93B122A123F60015E423 /* LaunchScreen.storyboard in Resources */,
+				0C8A93AE22A123F60015E423 /* Assets.xcassets in Resources */,
+				0C8A93AC22A123F50015E423 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8A93B522A123F60015E423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8A93C022A123F60015E423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C8A939F22A123F50015E423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8A93A922A123F50015E423 /* ViewController.swift in Sources */,
+				0CE6D46122BCF85200F8A842 /* VideoController11.swift in Sources */,
+				0C1CD86C22BBE44D002D12AD /* VideoController8.swift in Sources */,
+				0C1CD86622BBE271002D12AD /* VideoController5.swift in Sources */,
+				0C1CD86422BBE252002D12AD /* VideoController4.swift in Sources */,
+				0C1CD86222BBE196002D12AD /* VideoController3.swift in Sources */,
+				0CE6D45F22BCF84100F8A842 /* VideoController10.swift in Sources */,
+				0CE6D46922BCF8AC00F8A842 /* VideoController15.swift in Sources */,
+				0CE6D46722BCF88D00F8A842 /* VideoController14.swift in Sources */,
+				0CE6D45D22BCF82E00F8A842 /* VideoController9.swift in Sources */,
+				0C1CD86022BBE183002D12AD /* VideoController2.swift in Sources */,
+				0CE6D46522BCF87600F8A842 /* VideoController13.swift in Sources */,
+				0CE6D46B22BCF8BE00F8A842 /* VideoController16.swift in Sources */,
+				0CC804B922B7A8FA007A68BF /* PressController.swift in Sources */,
+				0C63C55022B8F4F9000DF590 /* ViewControllerC.swift in Sources */,
+				0CE6D46322BCF86400F8A842 /* VideoController12.swift in Sources */,
+				0C8A93A722A123F50015E423 /* AppDelegate.swift in Sources */,
+				0C93CFBE22AA76D900423C1C /* ViewControllerShake.swift in Sources */,
+				0C1CD85E22BBDBC2002D12AD /* VideoController1.swift in Sources */,
+				0C63C55422B8FB07000DF590 /* DataCollectionViewCell.swift in Sources */,
+				0C1CD86822BBE3B9002D12AD /* VideoController6.swift in Sources */,
+				0CC804B722B79359007A68BF /* VideoController.swift in Sources */,
+				0C1CD86A22BBE43D002D12AD /* VideoController7.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8A93B322A123F60015E423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8A93BC22A123F60015E423 /* GesturesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8A93BE22A123F60015E423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8A93C722A123F60015E423 /* GesturesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C8A93B922A123F60015E423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C8A93A222A123F50015E423 /* Gestures */;
+			targetProxy = 0C8A93B822A123F60015E423 /* PBXContainerItemProxy */;
+		};
+		0C8A93C422A123F60015E423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C8A93A222A123F50015E423 /* Gestures */;
+			targetProxy = 0C8A93C322A123F60015E423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C8A93AA22A123F50015E423 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C8A93AB22A123F50015E423 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C8A93AF22A123F60015E423 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C8A93B022A123F60015E423 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C8A93C922A123F60015E423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C8A93CA22A123F60015E423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C8A93CC22A123F60015E423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BE4MDYV97U;
+				INFOPLIST_FILE = Gestures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.ujaen.Gestures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C8A93CD22A123F60015E423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BE4MDYV97U;
+				INFOPLIST_FILE = Gestures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.ujaen.Gestures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C8A93CF22A123F60015E423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GesturesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uja.GesturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gestures.app/Gestures";
+			};
+			name = Debug;
+		};
+		0C8A93D022A123F60015E423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GesturesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uja.GesturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gestures.app/Gestures";
+			};
+			name = Release;
+		};
+		0C8A93D222A123F60015E423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GesturesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uja.GesturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gestures;
+			};
+			name = Debug;
+		};
+		0C8A93D322A123F60015E423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GesturesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uja.GesturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gestures;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C8A939E22A123F50015E423 /* Build configuration list for PBXProject "Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8A93C922A123F60015E423 /* Debug */,
+				0C8A93CA22A123F60015E423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C8A93CB22A123F60015E423 /* Build configuration list for PBXNativeTarget "Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8A93CC22A123F60015E423 /* Debug */,
+				0C8A93CD22A123F60015E423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C8A93CE22A123F60015E423 /* Build configuration list for PBXNativeTarget "GesturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8A93CF22A123F60015E423 /* Debug */,
+				0C8A93D022A123F60015E423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C8A93D122A123F60015E423 /* Build configuration list for PBXNativeTarget "GesturesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8A93D222A123F60015E423 /* Debug */,
+				0C8A93D322A123F60015E423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C8A939B22A123F50015E423 /* Project object */;
+}

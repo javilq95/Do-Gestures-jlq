@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Inicio-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Inicio" id="BYZ-38-t0r" customClass="ViewController" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pantalla_inicio" translatesAutoresizingMaskIntoConstraints="NO" id="B5Q-EL-K8R">
+                                <rect key="frame" x="0.0" y="-51" width="375" height="947"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuo-I1-eYJ">
+                                <rect key="frame" x="59" y="599" width="256" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Entrar" image="Boton_Entrar"/>
+                                <connections>
+                                    <segue destination="xPp-LJ-Tid" kind="show" id="wER-SD-Xx6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1560.8" y="61.330049261083744"/>
+        </scene>
+        <!--Tap-->
+        <scene sceneID="NiN-Zg-mW2">
+            <objects>
+                <viewController title="Tap" id="xPp-LJ-Tid" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZkZ-f7-oqS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zg4-vJ-7dg">
+                                <rect key="frame" x="120" y="280" width="134" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <state key="normal" title="Button" image="botonp"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="feb-RB-gV8" appends="YES" id="hbg-8B-ImS"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="TOQUE: Golpear la pantalla con un toque ligero. Se trata del gesto más básico" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGb-MA-fL0">
+                                <rect key="frame" x="20" y="530" width="254" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pulsar_simple" translatesAutoresizingMaskIntoConstraints="NO" id="rYz-pp-KSw">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="v88-ex-56q">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Toca para comenzar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HpT-KG-Ok7">
+                                <rect key="frame" x="79" y="140" width="217" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="QCy-Zv-qSY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eks-op-S5e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="feb-RB-gV8">
+                    <connections>
+                        <segue destination="ALg-dC-li8" kind="show" id="qgv-y0-10q"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-708" y="60.591133004926114"/>
+        </scene>
+        <!--Double Tap-->
+        <scene sceneID="Z2X-4l-cGz">
+            <objects>
+                <viewController title="Double Tap" id="ALg-dC-li8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p50-ad-Dpv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Realiza un doble toque" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pny-lt-m1b">
+                                <rect key="frame" x="51" y="140" width="272" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pulsar_doble" translatesAutoresizingMaskIntoConstraints="NO" id="x8I-0Y-CvF">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="TOQUE DOBLE: Golpear la pantalla con dos toques ligeros, con un tiempo máximo de 0.5 segundos entre toques." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxL-MN-4uH">
+                                <rect key="frame" x="20" y="530" width="254" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zik-Eu-eSF">
+                                <rect key="frame" x="70" y="721" width="234" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="No puedo hacer este gesto"/>
+                                <connections>
+                                    <segue destination="KDe-2P-XBl" kind="show" id="qJa-SR-P6N"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="OYI-3m-di6">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOi-7n-l9q">
+                                <rect key="frame" x="120" y="280" width="134" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <state key="normal" title="Button" image="botonp"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HmT-y3-NqK" appends="YES" id="nPj-gI-gfH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="qFc-7g-jVT"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="HmT-y3-NqK" appends="YES" id="gH7-pf-iSo"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wKb-yS-TNo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="HmT-y3-NqK">
+                    <connections>
+                        <outlet property="delegate" destination="YOi-7n-l9q" id="YgC-Ye-UlR"/>
+                        <segue destination="ceT-SZ-TCX" kind="show" id="ROQ-Wj-I3v"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-708" y="777.33990147783254"/>
+        </scene>
+        <!--Press-->
+        <scene sceneID="8LP-5u-5Ci">
+            <objects>
+                <viewController title="Press" id="ceT-SZ-TCX" customClass="PressController" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OG7-hl-GUD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3XC-h3-Aen">
+                                <rect key="frame" x="120" y="280" width="134" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <state key="normal" title="Button" image="botonp"/>
+                                <connections>
+                                    <action selector="press:" destination="chs-mK-Erh" eventType="touchUpInside" id="6ZV-5W-u3d"/>
+                                    <outletCollection property="gestureRecognizers" destination="9Ya-cF-M8I" appends="YES" id="T3o-rg-e5R"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEJ-Gl-c0w">
+                                <rect key="frame" x="18" y="530" width="260" height="182"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">PRESIONAR Y MANTENER: Presionar y mantener el dedo en un punto concreto durante algunos segundos. Para distinguirlo del tap hay que presionar más de 0.5 segundos.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="presionar_mantener" translatesAutoresizingMaskIntoConstraints="NO" id="GyU-Jk-7fB">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlh-XX-vbL">
+                                <rect key="frame" x="70" y="721" width="234" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="No puedo hacer este gesto"/>
+                                <connections>
+                                    <segue destination="ShW-13-bt7" kind="show" id="73X-Ng-CY2"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="mmb-4S-cva">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Presiona durante 3 segundos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHv-4b-c6i">
+                                <rect key="frame" x="18" y="140" width="338" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="vQ1-nv-fJQ"/>
+                    </view>
+                    <connections>
+                        <segue destination="zcp-jJ-9ha" kind="show" identifier="segue1" id="Ijf-9b-Awq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FE7-lD-aHb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="chs-mK-Erh" userLabel="Exit" sceneMemberID="exit"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="3" id="9Ya-cF-M8I">
+                    <connections>
+                        <action selector="pressWithRecognizer:" destination="ceT-SZ-TCX" id="dEG-Br-XD3"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-706.39999999999998" y="1497.0443349753696"/>
+        </scene>
+        <!--Alt1 press-->
+        <scene sceneID="Lmd-4q-PWA">
+            <objects>
+                <viewController id="ShW-13-bt7" userLabel="Alt1 press" customClass="VideoController2" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PP6-TZ-cHy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="multiples_toques_2" translatesAutoresizingMaskIntoConstraints="NO" id="7Qc-cB-W49">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ou2-HW-dmC">
+                                <rect key="frame" x="20" y="530" width="240" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">TOQUE MÚLTIPLE: consiste en realizar toques simples de forma iterativa tantos segundos como tiempo queramos presionar y mantener en esa zona.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IXa-kf-Tzh">
+                                <rect key="frame" x="-26" y="118" width="440" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="DL9-n1-xFn">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCa-dQ-cvM">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="8XU-pd-RjO" kind="show" id="iKA-tR-oSd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Gx6-ys-hd3"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="IXa-kf-Tzh" id="4qv-OE-zs4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4zk-Rd-CgS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64.799999999999997" y="1496.305418719212"/>
+        </scene>
+        <!--Alt2 press-->
+        <scene sceneID="MoN-PX-hjW">
+            <objects>
+                <viewController id="8XU-pd-RjO" userLabel="Alt2 press" customClass="VideoController3" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="22r-Jk-jIn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="press_desliza" translatesAutoresizingMaskIntoConstraints="NO" id="sFF-y7-JXl">
+                                <rect key="frame" x="258" y="524" width="108" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1BA-a1-MvS">
+                                <rect key="frame" x="20" y="517" width="240" height="203"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">PRESIONAR CON DESLIZAMIENTO: Localiza la zona de pulsado al tocar y mantiene presionada dicha zona hasta que se levante el dedo, independientemente del recorrido o deslizamiento del dedo.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LWt-LC-qEw">
+                                <rect key="frame" x="-26" y="118" width="440" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="chY-xD-nhF">
+                                <rect key="frame" x="0.0" y="512" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2R-UG-oOZ">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="zcp-jJ-9ha" kind="show" id="z7t-hH-Quf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="GDG-JX-ju8"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="LWt-LC-qEw" id="d2t-V8-YDv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XJB-dg-5gd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="807.20000000000005" y="1495.5665024630543"/>
+        </scene>
+        <!--Drag-->
+        <scene sceneID="WiZ-WK-PZV">
+            <objects>
+                <viewController title="Drag" id="zcp-jJ-9ha" customClass="ViewController" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XGa-Gc-WJj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Arrastra el icono azul a su hueco" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YnC-Dg-BvU">
+                                <rect key="frame" x="14" y="140" width="346" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Marco_icono-1" translatesAutoresizingMaskIntoConstraints="NO" id="6bN-hr-3RP">
+                                <rect key="frame" x="278" y="201" width="81" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="ARRASTRAR: Presionar en un punto u objeto concreto y deslizar el dedo sin levantarlo por donde se quiera arrastrar." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSm-aj-5Y1">
+                                <rect key="frame" x="24" y="530" width="250" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrastrar" translatesAutoresizingMaskIntoConstraints="NO" id="sbV-5d-AB9">
+                                <rect key="frame" x="260" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rsQ-wg-hdG">
+                                <rect key="frame" x="70" y="721" width="234" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="No puedo hacer este gesto"/>
+                                <connections>
+                                    <segue destination="nDd-rM-Tvm" kind="show" id="nIe-xf-kF6"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="HUu-mH-Hk3">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icono" translatesAutoresizingMaskIntoConstraints="NO" id="MDP-iP-XFd">
+                                <rect key="frame" x="14" y="395" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="eoI-yC-cwr" appends="YES" id="7fP-w7-KyP"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="UeP-be-VVy"/>
+                    </view>
+                    <connections>
+                        <outlet property="destino" destination="6bN-hr-3RP" id="wdf-Ye-3T4"/>
+                        <segue destination="fR8-63-8Eo" kind="show" identifier="segue5" id="7Xi-oN-jGX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Mk-Ze-aUk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="eoI-yC-cwr">
+                    <connections>
+                        <action selector="dragWithRecognizer:" destination="zcp-jJ-9ha" id="9yn-1r-PUf"/>
+                        <outlet property="delegate" destination="zcp-jJ-9ha" id="xuK-vD-z1s"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-708" y="2264.039408866995"/>
+        </scene>
+        <!--Alt1 drag-->
+        <scene sceneID="1vj-Pb-lhe">
+            <objects>
+                <viewController id="nDd-rM-Tvm" userLabel="Alt1 drag" customClass="VideoController4" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aRf-JK-7E3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deslizar_alt" translatesAutoresizingMaskIntoConstraints="NO" id="p3s-Bi-zQ5">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cib-ca-cGc">
+                                <rect key="frame" x="20" y="530" width="240" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">TOQUE ORIGEN Y DESTINO: se trata de un toque simple en el origen y un toque simple en el destino, separados menos de 0.5 segundos entre ambos toques.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VYA-os-fb6">
+                                <rect key="frame" x="-26" y="118" width="401" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="aTQ-s5-YCm">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7R-EH-3lS">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="ucd-81-gsS" kind="show" id="HNL-R7-3fo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zKd-ic-3JO"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="VYA-os-fb6" id="mK4-Ip-qrh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="08x-yy-h7C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64.799999999999997" y="2264.7783251231526"/>
+        </scene>
+        <!--Alt2 drag-->
+        <scene sceneID="P0P-8n-NBq">
+            <objects>
+                <viewController id="ucd-81-gsS" userLabel="Alt2 drag" customClass="VideoController5" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G1w-eM-lKC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deslizar_alt_3" translatesAutoresizingMaskIntoConstraints="NO" id="5p2-8T-7Tw">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5T-ro-cnN">
+                                <rect key="frame" x="20" y="530" width="240" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">PRESIONAR ORIGEN Y TOQUE DESTINO: se trata de presionar y mantener 0.5 segundos en el origen y un toque simple en el destino, separados menos de 1 segundos entre ambos toques.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ExZ-4y-oXI">
+                                <rect key="frame" x="-26" y="118" width="401" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="r6d-8L-BDQ">
+                                <rect key="frame" x="0.0" y="516" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7zc-QO-4Pl">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="fR8-63-8Eo" kind="show" id="Ejg-aE-7s5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="awe-ZW-MeB"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="ExZ-4y-oXI" id="hAg-uz-5o1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IQp-K9-iEO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="808.79999999999995" y="2264.7783251231526"/>
+        </scene>
+        <!--Flick-->
+        <scene sceneID="rTh-4M-LsZ">
+            <objects>
+                <viewController title="Flick" id="fR8-63-8Eo" customClass="ViewControllerC" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SjI-Y5-oPM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deslizar_lado_izq" translatesAutoresizingMaskIntoConstraints="NO" id="XIo-Tm-c4w">
+                                <rect key="frame" x="260" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="LqW-Lv-BnX">
+                                <rect key="frame" x="0.0" y="206" width="414" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Obt-eT-fXy">
+                                    <size key="itemSize" width="376" height="280"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="lzD-mT-H03" customClass="DataCollectionViewCell" customModule="Gestures" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.66666666666666663" width="376" height="280"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="280"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rk5-Li-qyf">
+                                                    <rect key="frame" x="0.0" y="-1" width="376" height="282"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <connections>
+                                            <outlet property="img" destination="Rk5-Li-qyf" id="r8M-2B-xkj"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="fR8-63-8Eo" id="D61-9U-vW3"/>
+                                    <outlet property="delegate" destination="fR8-63-8Eo" id="1ec-5I-9CK"/>
+                                </connections>
+                            </collectionView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="TOQUE LIGERO: Desplazar, ligeramente, el dedo hacia la izquierda" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6n-G6-D0f">
+                                <rect key="frame" x="20" y="530" width="240" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cqd-LE-34V">
+                                <rect key="frame" x="70" y="721" width="234" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="No puedo hacer este gesto"/>
+                                <connections>
+                                    <segue destination="oFI-gJ-9Ph" kind="show" id="Wqp-9W-2pr"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="eNt-Bx-t6y">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recorre las imágenes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVW-u2-1Wa">
+                                <rect key="frame" x="72" y="140" width="230" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="F4U-Ta-U87"/>
+                    </view>
+                    <connections>
+                        <outlet property="colltionView" destination="LqW-Lv-BnX" id="ais-NK-uNI"/>
+                        <segue destination="Awa-bH-786" kind="show" identifier="segue6" id="p8M-PE-FcA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g8y-IH-lFv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-708" y="2953.4482758620693"/>
+        </scene>
+        <!--Alt1 flick-->
+        <scene sceneID="z2y-SD-N6I">
+            <objects>
+                <viewController id="oFI-gJ-9Ph" userLabel="Alt1 flick" customClass="VideoController6" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H2e-sX-hyv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deslizar_alt" translatesAutoresizingMaskIntoConstraints="NO" id="Xeq-WR-6k7">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLk-bs-Hmq">
+                                <rect key="frame" x="20" y="530" width="240" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">TOQUE ORIGEN Y DESTINO: se trata de un toque simple en el origen y un toque simple en el destino, separados menos de 0,5 segundos entre ambos toques.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rag-30-drt">
+                                <rect key="frame" x="-26" y="118" width="401" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="88X-NJ-dsm">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRO-Eb-thl">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="0gP-hv-5lt" kind="show" id="zbM-6S-Yko"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="r8y-Fe-TMU"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="Rag-30-drt" id="HrC-Ar-22e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dsV-Zo-bu5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64.799999999999997" y="2953.4482758620693"/>
+        </scene>
+        <!--Alt2 flick-->
+        <scene sceneID="YfQ-AJ-f62">
+            <objects>
+                <viewController id="0gP-hv-5lt" userLabel="Alt2 flick" customClass="VideoController7" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BSi-cY-Tdc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deslizar_alt_3" translatesAutoresizingMaskIntoConstraints="NO" id="XxD-gR-rqa">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yqo-1c-XgR">
+                                <rect key="frame" x="20" y="530" width="240" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">PRESIONAR ORIGEN Y TOQUE DESTINO: se trata de presionar y mantener 0,5 segundos en el origen y un toque simple en el destino, separados menos de 1 segundos entre ambos toques.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j7z-UE-RIT">
+                                <rect key="frame" x="-26" y="118" width="401" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="GkX-xT-TZ5">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RUq-du-s7E">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="Awa-bH-786" kind="show" id="QHO-m5-EfZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Kvt-Id-sGp"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="j7z-UE-RIT" id="TWg-1l-XL3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9aI-rG-8Si" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="808.79999999999995" y="2953.4482758620693"/>
+        </scene>
+        <!--Swipe-->
+        <scene sceneID="Dks-hD-rK8">
+            <objects>
+                <viewController title="Swipe" id="Awa-bH-786" customClass="ViewController" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3RR-Z1-Fgn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swipearr" translatesAutoresizingMaskIntoConstraints="NO" id="DYe-y6-OUs">
+                                <rect key="frame" x="260" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide-swipe-unlock" translatesAutoresizingMaskIntoConstraints="NO" id="vUN-rw-cnm">
+                                <rect key="frame" x="0.0" y="206" width="375" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="RpE-XI-tVT" appends="YES" id="hTQ-u0-0hi"/>
+                                </connections>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="TOQUE FUERTE: Desplazar, ejerciendo mayor presión, el dedo hacia la derecha." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mc5-Ur-G0M">
+                                <rect key="frame" x="20" y="530" width="240" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4cF-KY-4Jo">
+                                <rect key="frame" x="70" y="721" width="234" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="No puedo hacer este gesto"/>
+                                <connections>
+                                    <segue destination="YB0-xk-m0l" kind="show" id="Cwf-GZ-9DE"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="JFH-Jv-7vj">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Desliza de izquierda a derecha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2t-zx-fic">
+                                <rect key="frame" x="24" y="140" width="326" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="QBE-SD-NAb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wj5-xS-tBK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="RpE-XI-tVT">
+                    <connections>
+                        <segue destination="bp9-OP-ZvO" kind="show" id="Ep9-19-WeU"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-708" y="3635.4679802955666"/>
+        </scene>
+        <!--Alt1 swipe-->
+        <scene sceneID="22d-45-jjD">
+            <objects>
+                <viewController id="YB0-xk-m0l" userLabel="Alt1 swipe" customClass="VideoController8" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DRz-vl-xwF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deslizar_alt_2" translatesAutoresizingMaskIntoConstraints="NO" id="6rR-zh-DXl">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4v-6c-9Yb">
+                                <rect key="frame" x="20" y="530" width="240" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">TOQUE ORIGEN Y DESTINO FUERTE: se trata de un toque doble en el origen y un toque simple en el destino, separados menos de 0,5 segundos entre ambos tipos de toques. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AeN-ot-gIW">
+                                <rect key="frame" x="-26" y="118" width="401" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="2VN-gm-ff3">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K1t-JL-2AC">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="mah-o5-Dtf" kind="show" id="OPh-wH-Kul"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ayc-Rp-cHL"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="AeN-ot-gIW" id="w5t-7p-TdN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uhj-KO-tew" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64.799999999999997" y="3636.2068965517242"/>
+        </scene>
+        <!--Alt2 swipe-->
+        <scene sceneID="Jli-Tv-DkG">
+            <objects>
+                <viewController id="mah-o5-Dtf" userLabel="Alt2 swipe" customClass="VideoController9" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="smo-LG-GOY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6V0-8q-BwZ">
+                                <rect key="frame" x="20" y="530" width="240" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">PRESIONAR ORIGEN Y TOQUE DESTINO: se trata de presionar y mantener 1 segundos en el origen y un toque simple en el destino, separados menos de 1 segundos entre ambos toques.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deslizar_alt_3" translatesAutoresizingMaskIntoConstraints="NO" id="Bkp-lZ-Trd">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="ser-12-cUn">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xvg-ma-4oK">
+                                <rect key="frame" x="-26" y="118" width="401" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ss-d3-2Ou">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="bp9-OP-ZvO" kind="show" id="vDO-uO-dfH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="wLr-MH-y3R"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="xvg-ma-4oK" id="3Bv-U2-lXk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1De-5D-sXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="808.79999999999995" y="3636.2068965517242"/>
+        </scene>
+        <!--Shake-->
+        <scene sceneID="iEY-Jc-V6y">
+            <objects>
+                <viewController title="Shake" id="bp9-OP-ZvO" customClass="ViewControllerShake" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4WF-Qc-Kao">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Agita tu dispositivo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ekk-7o-W7K">
+                                <rect key="frame" x="85" y="140" width="205" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="agitar" translatesAutoresizingMaskIntoConstraints="NO" id="564-O6-4d9">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="AGITAR: Agitar el dispositivo de un lado a otro." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NnY-Zg-fVG">
+                                <rect key="frame" x="20" y="530" width="240" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFX-Cl-TWy">
+                                <rect key="frame" x="70" y="721" width="234" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="No puedo hacer este gesto"/>
+                                <connections>
+                                    <segue destination="Vyn-I3-WVk" kind="show" id="bFW-TM-Bf0"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="igr-YB-DwZ">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shaking-mobile" translatesAutoresizingMaskIntoConstraints="NO" id="d8x-40-ruA">
+                                <rect key="frame" x="17" y="209" width="341" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="c5R-DJ-9ZW"/>
+                    </view>
+                    <connections>
+                        <segue destination="wnp-d8-8RJ" kind="show" identifier="segue2" id="4J3-Hx-3NX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yc3-ql-onn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-708" y="4314.5320197044339"/>
+        </scene>
+        <!--Alt1 shake-->
+        <scene sceneID="NnF-3p-XCS">
+            <objects>
+                <viewController id="Vyn-I3-WVk" userLabel="Alt1 shake" customClass="VideoController10" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xf8-Ja-aTJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pulsar_tres" translatesAutoresizingMaskIntoConstraints="NO" id="CFm-UH-6tX">
+                                <rect key="frame" x="265" y="534" width="105" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="TOQUE TRES DEDOS: Golpear la pantalla con un toque simple pero con tres dedos." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adM-pv-usB">
+                                <rect key="frame" x="20" y="530" width="240" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="ge0-Fz-Fl4">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IqP-Ha-3bh">
+                                <rect key="frame" x="-26" y="118" width="401" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLl-hz-DEw">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="re4-rD-KLw" kind="show" id="z4d-en-YFO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="fL1-Ve-LA7"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="IqP-Ha-3bh" id="4JW-o7-E8n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pWK-wd-CIP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64.799999999999997" y="4315.2709359605915"/>
+        </scene>
+        <!--Alt2 shake-->
+        <scene sceneID="5Ze-Tp-6Qh">
+            <objects>
+                <viewController id="re4-rD-KLw" userLabel="Alt2 shake" customClass="VideoController11" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xOU-Zk-C4l">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deslizar_abajo_dos" translatesAutoresizingMaskIntoConstraints="NO" id="wOL-80-vYS">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="DESLIZAR CON DOS DEDOS: Realizar un deslizamiento ligero con dos dedos y hacia abajo. " textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFX-Ob-WEq">
+                                <rect key="frame" x="20" y="530" width="242" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="spo-6h-niA">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a52-sX-n1u">
+                                <rect key="frame" x="-26" y="118" width="401" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sar-vj-Gec">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="wnp-d8-8RJ" kind="show" id="Kfy-Qd-S4k"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nOM-4U-CAd"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="a52-sX-n1u" id="ByT-d2-aaG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lbt-I5-OsO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="808.79999999999995" y="4315.2709359605915"/>
+        </scene>
+        <!--Pinch-->
+        <scene sceneID="oIX-sJ-bEh">
+            <objects>
+                <viewController title="Pinch" id="wnp-d8-8RJ" customClass="ViewController" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ano-qf-9gS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pellizcar" translatesAutoresizingMaskIntoConstraints="NO" id="miZ-0a-E1s">
+                                <rect key="frame" x="250" y="530" width="118" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pensador" translatesAutoresizingMaskIntoConstraints="NO" id="QYU-AP-Zug">
+                                <rect key="frame" x="148" y="289" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="kfB-KY-HB4" appends="YES" id="SJ1-fm-6Fr"/>
+                                </connections>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwn-6P-c98">
+                                <rect key="frame" x="11" y="524" width="240" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">PELLIZCAR: Pellizcar, normalmente con el pulgar y el Índice, de modo que el zoom se acerca cuando se pellizca hacia afuera y se aleja cuando se pellizca hacia adentro.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tDR-ho-RD1">
+                                <rect key="frame" x="70" y="721" width="234" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="No puedo hacer este gesto"/>
+                                <connections>
+                                    <segue destination="v4F-x7-EOV" kind="show" id="Lvd-s8-p3z"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="SdJ-Uq-d6d">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amplia el icono al triple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFl-Zg-nlT">
+                                <rect key="frame" x="64" y="140" width="247" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Gcd-QK-Iud"/>
+                    </view>
+                    <connections>
+                        <segue destination="DEC-DB-o7a" kind="show" identifier="segue3" id="x2q-Fj-RD0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ORt-vG-70M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="kfB-KY-HB4">
+                    <connections>
+                        <action selector="pinchWithRecognizer:" destination="wnp-d8-8RJ" id="n99-XA-YeD"/>
+                    </connections>
+                </pinchGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-708" y="4998.768472906404"/>
+        </scene>
+        <!--Alt1 pinch-->
+        <scene sceneID="E8W-Ac-WIE">
+            <objects>
+                <viewController id="v4F-x7-EOV" userLabel="Alt1 pinch" customClass="VideoController12" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o7K-AE-d6U">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLk-oT-2o0">
+                                <rect key="frame" x="20" y="530" width="225" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">BARRA: Actúa como una barra de zoom invisible, que se activa al mantener pulsado con dos dedos, ampliando al deslizar hacia arriba y reduciendo al deslizar hacia abajo.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zoom_dos_mas_menos_si" translatesAutoresizingMaskIntoConstraints="NO" id="v4Q-tf-Ll8">
+                                <rect key="frame" x="233" y="522" width="141" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="smT-TJ-EJV">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWw-wx-B9K">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="JcH-Nt-6V4" kind="show" id="qnv-vV-7Xn"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YOC-83-tye">
+                                <rect key="frame" x="-26" y="118" width="401" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="65K-aq-O6j"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="YOC-83-tye" id="MoN-pm-GcS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YgM-26-ehM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="63.200000000000003" y="4998.0295566502464"/>
+        </scene>
+        <!--Alt2 pinch-->
+        <scene sceneID="Do8-UI-JTj">
+            <objects>
+                <viewController id="JcH-Nt-6V4" userLabel="Alt2 pinch" customClass="VideoController13" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3jl-mq-Qii">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zoom_rueda_der_mas_menos" translatesAutoresizingMaskIntoConstraints="NO" id="CeZ-G0-l2y">
+                                <rect key="frame" x="242" y="537" width="126" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="RUEDA: Mantiene la naturaleza del gesto inicial, ampliando al girar hacia la derecha y reduciendo al girar a la izquierda." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dj-Dx-xQT">
+                                <rect key="frame" x="20" y="530" width="214" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="jrS-70-J05">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZK-XF-1m0">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="DEC-DB-o7a" kind="show" id="yus-Xd-6dk"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gkz-WX-XhR">
+                                <rect key="frame" x="-26" y="118" width="401" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="X51-ik-8td"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="Gkz-WX-XhR" id="tKZ-gJ-EY8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gtB-24-blk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="807.20000000000005" y="4998.0295566502464"/>
+        </scene>
+        <!--Rotate-->
+        <scene sceneID="22w-Xg-3h7">
+            <objects>
+                <viewController title="Rotate" id="DEC-DB-o7a" customClass="ViewController" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ccR-Xc-C7f" customClass="viewController">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Haa-vO-9fx">
+                                <rect key="frame" x="16" y="524" width="239" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">ROTAR: Usar, normalmente, el pulgar y el índice para presionar en un lugar concreto ambos dedos y moverlos simulando una rotación, sin variar la distancia de separación entre ambos dedos.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rotar_derecha" translatesAutoresizingMaskIntoConstraints="NO" id="E4O-iF-b9B">
+                                <rect key="frame" x="250" y="530" width="121" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rl-3A-AUd">
+                                <rect key="frame" x="70" y="721" width="234" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="No puedo hacer este gesto"/>
+                                <connections>
+                                    <segue destination="xBA-EQ-7uz" kind="show" id="xeD-MJ-LEl"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spiderman-colgado" translatesAutoresizingMaskIntoConstraints="NO" id="3rl-p3-Uef">
+                                <rect key="frame" x="72" y="225" width="230" height="230"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="aPj-gA-QS5" appends="YES" id="Bwn-Qm-juA"/>
+                                </connections>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="eXT-kI-tq3">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rota la imagen 180º" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bR9-ap-CCD">
+                                <rect key="frame" x="80" y="140" width="215" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="spM-KT-8yg"/>
+                    </view>
+                    <connections>
+                        <segue destination="J2G-Bt-rgR" kind="show" identifier="segue4" id="7AT-lk-jNG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WOv-0A-tWi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <rotationGestureRecognizer id="aPj-gA-QS5">
+                    <connections>
+                        <action selector="rotateWithRecognizer:" destination="DEC-DB-o7a" id="TG4-EE-8XZ"/>
+                    </connections>
+                </rotationGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-708" y="5674.8768472906404"/>
+        </scene>
+        <!--Alt1 rotate-->
+        <scene sceneID="ccX-cE-Qxh">
+            <objects>
+                <viewController id="xBA-EQ-7uz" userLabel="Alt1 rotate" customClass="VideoController14" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oG5-12-ueB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8f-QW-bGJ">
+                                <rect key="frame" x="20" y="522" width="240" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">BALANZA: Actúa como una balanza invisible, que se activa al mantener pulsado con dos dedos, girando hacia la derecha al deslizar hacia la derecha y girando a la izquierda al deslizar hacia la izquierda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rotate_dos" translatesAutoresizingMaskIntoConstraints="NO" id="CbX-fK-B5p">
+                                <rect key="frame" x="255" y="525" width="111" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="Vtw-ls-K3J">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlf-HR-Rh1">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="O8r-hL-Uf6" kind="show" id="Bw5-Qh-1ns"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4v0-P8-8Ar">
+                                <rect key="frame" x="-26" y="118" width="401" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lOE-Wf-Bqn"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="4v0-P8-8Ar" id="Dfn-ZO-pJE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ABy-8G-AlQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="63.200000000000003" y="5674.8768472906404"/>
+        </scene>
+        <!--Alt2 rotate-->
+        <scene sceneID="bmU-Ay-Q7s">
+            <objects>
+                <viewController id="O8r-hL-Uf6" userLabel="Alt2 rotate" customClass="VideoController15" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hZh-Jf-jOE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deslizar_rotar" translatesAutoresizingMaskIntoConstraints="NO" id="h9u-Ho-WKh">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="ARCO: se realiza un semicírculo hacia un sentido, girando un número de grados concreto la imagen (normalmente 90 grados)." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilE-Qk-S3G">
+                                <rect key="frame" x="20" y="530" width="240" height="111.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="eu4-9Z-72x">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2Z-mK-eR2">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="J2G-Bt-rgR" kind="show" id="RoI-Dj-918"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yUW-8k-Ven">
+                                <rect key="frame" x="-26" y="118" width="401" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="uum-uw-ImF"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="yUW-8k-Ven" id="6b3-DI-UOn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hqm-In-R2C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="808.79999999999995" y="5675.615763546798"/>
+        </scene>
+        <!--precise-->
+        <scene sceneID="GeR-Nc-Auc">
+            <objects>
+                <viewController id="J2G-Bt-rgR" userLabel="precise" customClass="ViewController" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QQe-8N-hRn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="captcha" translatesAutoresizingMaskIntoConstraints="NO" id="GeN-yE-gB0">
+                                <rect key="frame" x="1" y="232" width="374" height="230"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ta8-lA-J6Z">
+                                <rect key="frame" x="32" y="380" width="178" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="TOQUE PRECISO: Realizar un toque simple, de forma precisa, en botones que están muy próximos." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQU-gn-CRr">
+                                <rect key="frame" x="20" y="530" width="260" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pulsar_preciso" translatesAutoresizingMaskIntoConstraints="NO" id="Z9y-ak-030">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Escribe &quot;Do gestures&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Uy-aM-q3x">
+                                <rect key="frame" x="69" y="128" width="236" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVD-X2-oDk">
+                                <rect key="frame" x="144" y="451" width="87" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Confirmar"/>
+                                <connections>
+                                    <action selector="confirmarPress:" destination="J2G-Bt-rgR" eventType="touchUpInside" id="Ze5-eH-FeA"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="Leg-8p-FnW">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Si pulsa borrar más de dos veces, presiona:" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYU-VB-BZk">
+                                <rect key="frame" x="0.0" y="166" width="375" height="35.333333333333336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6H-D4-oTL">
+                                <rect key="frame" x="71" y="202" width="234" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="No puedo hacer este gesto"/>
+                                <connections>
+                                    <segue destination="6He-xq-vmx" kind="show" id="geb-zi-INm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Ng6-9n-TMp"/>
+                    </view>
+                    <connections>
+                        <outlet property="campo" destination="ta8-lA-J6Z" id="tYi-iV-T5h"/>
+                        <segue destination="526-Uv-jgz" kind="show" identifier="segue7" id="QpE-1w-bhW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ic6-i9-yY0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-708" y="6403.4482758620688"/>
+        </scene>
+        <!--Fin-->
+        <scene sceneID="wfp-xD-xfo">
+            <objects>
+                <viewController id="526-Uv-jgz" userLabel="Fin" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bm-IZ-8l2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-degradado" translatesAutoresizingMaskIntoConstraints="NO" id="cZE-Le-jSH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="confetti" translatesAutoresizingMaskIntoConstraints="NO" id="FAe-ux-4mk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="566"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¡GRACIAS POR PARTICIPAR!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMN-JE-GuF">
+                                <rect key="frame" x="31" y="143" width="312" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMs-1A-9eX">
+                                <rect key="frame" x="59" y="658" width="257" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="VOLVER AL MENÚ DE INICIO"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="qcq-ir-Uwo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="frb-7U-StT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wv1-qD-SVX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-708" y="7117.2413793103451"/>
+        </scene>
+        <!--Alt 1 precise-->
+        <scene sceneID="KJN-Oo-c8z">
+            <objects>
+                <viewController id="6He-xq-vmx" userLabel="Alt 1 precise" customClass="VideoController16" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kna-Oy-ZRC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="precisee" translatesAutoresizingMaskIntoConstraints="NO" id="vyq-q6-XLL">
+                                <rect key="frame" x="262" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="eQ5-Ss-fF1">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RjD-Vm-GAx">
+                                <rect key="frame" x="-26" y="118" width="401" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2FL-nj-465">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="526-Uv-jgz" kind="show" id="qpg-dY-uSB"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="TOQUE CON DESLIZAMIENTO: interpreta el toque al levantar el dedo y no al presionar. " textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2k-r7-Cgx">
+                                <rect key="frame" x="16" y="530" width="240" height="89.666666666666671"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="OL2-4H-Jv8"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="RjD-Vm-GAx" id="bLf-nT-eDQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nSW-Nb-7iV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64.799999999999997" y="6404.1871921182264"/>
+        </scene>
+        <!--Alt1 double tap-->
+        <scene sceneID="YoI-aQ-1q5">
+            <objects>
+                <viewController title="Alt1 double tap" id="KDe-2P-XBl" customClass="VideoController" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rxe-9H-bBF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pulsar_dos" translatesAutoresizingMaskIntoConstraints="NO" id="YDZ-HR-Prj">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="TOQUE DOS DEDOS: Golpear la pantalla con un toque simple pero con dos dedos." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tw-H8-rJC">
+                                <rect key="frame" x="20" y="530" width="240" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H58-qq-khC">
+                                <rect key="frame" x="-21" y="118" width="396" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="EAO-11-S8b">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Yx-vm-Pvf">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="l1P-UY-Bme" kind="show" id="82O-x1-rSk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="W7D-TH-oYT"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="H58-qq-khC" id="AeM-yt-ezQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RcF-Pa-srI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="63.200000000000003" y="776.60098522167493"/>
+        </scene>
+        <!--Alt2 double tap-->
+        <scene sceneID="axD-Dt-zeY">
+            <objects>
+                <viewController id="l1P-UY-Bme" userLabel="Alt2 double tap" customClass="VideoController1" customModule="Gestures" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aSN-4J-ZHg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pulsar_doble_imp" translatesAutoresizingMaskIntoConstraints="NO" id="TXy-tT-2aU">
+                                <rect key="frame" x="265" y="530" width="105" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="TOQUE DOBLE IMPRECISO: Igual que el gesto original, pero tomando de referencia la localización del primer o segundo toque." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45h-Bf-6SX">
+                                <rect key="frame" x="20" y="530" width="240" height="111.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <webView contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v2R-4E-Fph">
+                                <rect key="frame" x="-26" y="118" width="401" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MARCO-AZUL-300x179" translatesAutoresizingMaskIntoConstraints="NO" id="Rkp-3n-OYb">
+                                <rect key="frame" x="0.0" y="515" width="375" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRZ-Xj-fis">
+                                <rect key="frame" x="146" y="721" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="ceT-SZ-TCX" kind="show" id="zbW-n2-0AK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zla-bX-vgW"/>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="v2R-4E-Fph" id="dF8-As-Ggh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bJX-3S-Kao" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="808.79999999999995" y="777.33990147783254"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Boton_Entrar" width="272" height="86"/>
+        <image name="Icono" width="1000" height="1000"/>
+        <image name="MARCO-AZUL-300x179" width="300" height="179"/>
+        <image name="Marco_icono-1" width="1040" height="1040"/>
+        <image name="Pantalla_inicio" width="375" height="901"/>
+        <image name="Pensador" width="600" height="600"/>
+        <image name="agitar" width="66" height="98"/>
+        <image name="arrastrar" width="78" height="109"/>
+        <image name="botonp" width="720" height="720"/>
+        <image name="captcha" width="312" height="123"/>
+        <image name="confetti" width="400" height="423"/>
+        <image name="deslizar_abajo_dos" width="66" height="98"/>
+        <image name="deslizar_alt" width="66" height="98"/>
+        <image name="deslizar_alt_2" width="66" height="98"/>
+        <image name="deslizar_alt_3" width="66" height="98"/>
+        <image name="deslizar_lado_izq" width="66" height="98"/>
+        <image name="deslizar_rotar" width="66" height="98"/>
+        <image name="fondo-degradado" width="2500" height="1767"/>
+        <image name="multiples_toques_2" width="66" height="98"/>
+        <image name="pellizcar" width="79" height="98"/>
+        <image name="precisee" width="66" height="98"/>
+        <image name="presionar_mantener" width="66" height="98"/>
+        <image name="press_desliza" width="78" height="109"/>
+        <image name="pulsar_doble" width="66" height="98"/>
+        <image name="pulsar_doble_imp" width="66" height="98"/>
+        <image name="pulsar_dos" width="66" height="98"/>
+        <image name="pulsar_preciso" width="66" height="98"/>
+        <image name="pulsar_simple" width="66" height="98"/>
+        <image name="pulsar_tres" width="66" height="98"/>
+        <image name="rotar_derecha" width="79" height="98"/>
+        <image name="rotate_dos" width="81" height="109"/>
+        <image name="shaking-mobile" width="256" height="256"/>
+        <image name="slide-swipe-unlock" width="730" height="410"/>
+        <image name="spiderman-colgado" width="1920" height="1080"/>
+        <image name="swipearr" width="66" height="98"/>
+        <image name="zoom_dos_mas_menos_si" width="89" height="109"/>
+        <image name="zoom_rueda_der_mas_menos" width="86" height="98"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="QpE-1w-bhW"/>
+        <segue reference="RoI-Dj-918"/>
+        <segue reference="x2q-Fj-RD0"/>
+        <segue reference="Kfy-Qd-S4k"/>
+        <segue reference="vDO-uO-dfH"/>
+        <segue reference="QHO-m5-EfZ"/>
+        <segue reference="Ejg-aE-7s5"/>
+        <segue reference="Ijf-9b-Awq"/>
+        <segue reference="zbW-n2-0AK"/>
+    </inferredMetricsTieBreakers>
+</document>
